@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+
+.half-width{
+    width: 50%;
+    border-bottom: 30px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.half-width img{
+    width: 90%;
+}
+
+.resume-btn{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange,purple);
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.first-section-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-div{
+    display: flex;
+}
+.developer-class{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    /*padding-left: 10px;*/
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+    
+}
+#developer-id1{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(78, 39, 39), cyan);
+    border-image-slice: 3;
+}
+
+#developer-id2{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(11, 218, 4), rgb(202, 5, 71));
+    border-image-slice: 3;
+}
+
+.final-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
